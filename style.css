@@ -1,0 +1,36 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+    display: inline;
+}
+
+li a{
+    padding: 5px 10px;
+    margin: 0;
+    border: 0px solid #DA70D6;
+    background: #8B008B;
+    text-decoration: none;
+    color: #FFF;
+    /*Cantos arrendodados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+}
+
+li a:hover{
+    background:#8B008B;
+    color: #000;
+    border-color: #000;
+}
+
+
